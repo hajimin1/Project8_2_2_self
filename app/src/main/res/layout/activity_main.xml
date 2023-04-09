@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:text="이전 그림"
+        android:layout_weight="1"
+        android:id="@+id/btnPrev"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="0/0"
+        android:id="@+id/textNumber"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:layout_marginHorizontal="30dp"/>
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:text="다음 그림"
+        android:layout_weight="1"
+        android:id="@+id/btnNext"/>
+
+</LinearLayout>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="2021041034 하지민"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:layout_margin="10dp"/>
+
+    <com.example.project8_2_2_self.myPictureView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/myPictureView1"/>
+
+</LinearLayout>
